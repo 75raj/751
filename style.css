@@ -680,7 +680,22 @@ header ul a:hover{
 .slider .item:hover{
     filter: grayscale(0);
 }
+.social-box a,
+.social-icons a,
+.box-icons a,
+.social-sidebar a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
 
+.social-box a:hover,
+.social-icons a:hover,
+.box-icons a:hover,
+.social-sidebar a:hover {
+    transform: scale(1.2);
+    color: #00ff5e; /* WhatsApp green */
+}
 
   /* CONTACT SECTION */
 .contact-section{
@@ -1271,11 +1286,3 @@ header ul a:hover{
 
 
 }
-
-
-
-
-
-
-
-
